@@ -38,12 +38,12 @@
 									<label for="exampleInputEmail1" class="form-label">User
 										Name </label> <input type="text" class="form-control"
 										id="exampleInputEmail1" aria-describedby="emailHelp"
-										name="username">
+										name="username" placeholder="ENTER USERNAME" required>
 								</div>
 								<div class="mb-3">
 									<label for="exampleInputPassword1" class="form-label">Password</label>
 									<input type="password" class="form-control"
-										id="exampleInputPassword1" name="password">
+										id="exampleInputPassword1" name="password" placeholder="ENTER PASSWORD" required>
 								</div>		
 							<button type="submit" class="btn btn-dark" style="background: linear-gradient(135deg, #71b7e6, #9b59b6);">SIGN IN</button>
 							

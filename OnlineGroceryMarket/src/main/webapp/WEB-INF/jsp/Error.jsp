@@ -128,6 +128,8 @@
 </style>
 </head>
 <body>
+		
+
 		<div class="pencil">
 			<div class="pencil__ball-point"></div>
 			<div class="pencil__cap"></div>
@@ -136,6 +138,11 @@
 			<div class="pencil__eraser"></div>
 		</div>
 			<div class="line"></div>
-			<h2>Invalide Login...Try Again</h2>
+			<h2>Invalide Login...Try Again</h2><br><br><br><br><br>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: linear-gradient(135deg, #71b7e6, #9b59b6);">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="/">LOGIN</a>
+		</div>
+	</nav>
 </body>
 </html>

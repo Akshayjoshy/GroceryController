@@ -16,10 +16,14 @@ import org.springframework.web.bind.annotation.PostMapping;
 import com.akshay.OnlineGroceryMarket.DAO.UserDAO;
 import com.akshay.OnlineGroceryMarket.Model.UserEntity;
 
+
 @Controller
 public class UserController {
 	@Autowired
 	private UserDAO userDAO;
+	
+	
+	
 	
 	@GetMapping("/home")
 	public String home(Model m) {	
@@ -45,6 +49,7 @@ public class UserController {
 		
 		return "ViewAllUsers";
 	}
+	
 	@GetMapping("/edit_user/{id}")
 	public String editUser(@PathVariable(value="id")Long id,Model m) {
 		
